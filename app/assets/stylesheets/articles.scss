@@ -1,0 +1,38 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+  background-color: #FFFFFF;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 8px;
+  color: #777;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+}
+.article{
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  width: 400px
+}
